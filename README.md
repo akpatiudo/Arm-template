@@ -42,7 +42,7 @@ ApiVersion: The API version determines what properties are available to configur
 the parameter file was created, this house the parameters that makes the script reuseable, the value houses the name of the web app and app service plan. this can be change and the cold redeployed
 
 ### *Deploy the ARM Template*
-With the ARM template ready, you can now deploy the web app to your Azure environment. it will apear like this
+With the ARM template ready, you can now deploy the web app to your Azure environment. It will apear like this
 
 ![image](https://github.com/akpatiudo/Arm-template/assets/118566096/bbd3733d-4ace-49f8-9b03-7f17a1f6cc54)
 
@@ -50,6 +50,6 @@ when you lunch the Default domain in you browser you have this:
 
 ![image](https://github.com/akpatiudo/Arm-template/assets/118566096/68221aff-931f-4980-ba69-e8599ec0b951)
 
-
-
+### Project Summary:
+Exploring Azure Resource Manager (ARM) templates for streamlined infrastructure deployment. Focused on the 'Parameters' component, configuring resources like web apps and app service plans. Named resources dynamically, utilized API versions, and deployed with customizable parameters for efficient Azure resource management.
 
