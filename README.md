@@ -1,9 +1,9 @@
 ## *Exploring ARM Templates: Creating And Deploying Azure Web App*
 
 ### *Introduction*
-ARM templates is an infrastructure as code services, ARM stands for Azure Resource Manager, which is Microsoft’s deployment and management service for Azure. You use the ARM management layer for creating, updating, and deleting Azure resources. You no longer need to click around the portal creating resources or writing scripts to deploy a resource. Instead, the template defines the resources, and the Azure ARM management layer is responsible for creating the infrastructure.
+ARM templates are infrastructure as code services, ARM stands for Azure Resource Manager, which is Microsoft’s deployment and management service for Azure. You use the ARM management layer for creating, updating, and deleting Azure resources. You no longer need to click around the portal creating resources or writing scripts to deploy a resource. Instead, the template defines the resources, and the Azure ARM management layer is responsible for creating the infrastructure.
 
-A web application (web app) is an application program that is stored on a remote server and delivered over the internet through a browser interface. web app ares designed for a wide variety of uses and users, from an organization to an individual for numerous reasons. Commonly used web applications can include webmail, online calculators or e-commerce shops. While users can only access some web apps by a specific browser, most are available no matter the browser.
+A web application (web app) is an application program that is stored on a remote server and delivered over the internet through a browser interface. web app are designed for a wide variety of uses and users, from an organization to an individual for numerous reasons. Commonly used web applications can include webmail, online calculators or e-commerce shops. While users can only access some web apps by a specific browser, most are available no matter the browser.
 
 ### *ARM Template Components:
 
@@ -23,9 +23,9 @@ Resources - Specify the resources to deploy.
 
 Outputs - Return values from the deployed resources.
 
-DependsOn:  ARM templates require that you manually create resource dependencies. Dependencies determine the order Azure should deploy the resources. For example, if an ARM template is deploying web app and a virtual machine, the app service plan exists first before creating the virtual machine.
+Depends On:  ARM templates require that you manually create resource dependencies. Dependencies determine the order Azure should deploy the resources. For example, if an ARM template is deploying web app and a virtual machine, the app service plan exists first before creating the virtual machine.
 
-in this work my focuse is on the parameter.
+in this work my focus is on the parameter.
 
 ### *Steps I Took:*
 
